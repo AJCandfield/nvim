@@ -18,11 +18,6 @@ return {
       "yaml",
     })
 
-    vim.opt.foldmethod = "expr"
-    vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-    vim.opt.foldenable = true
-    vim.opt.foldlevel = 5
-
     opts.highlight = { enable = true }
     opts.indent = { enable = true }
   end,
