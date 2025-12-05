@@ -1,5 +1,5 @@
 -- Disable any plugin here
 return {
-  -- Example:
-  -- { "folke/trouble.nvim", enabled = false },
+  -- Disable auto-pairing of quotes, parenthesis, brackets, etc.
+  { "echasnovski/mini.pairs", enabled = false },
 }
